@@ -1,0 +1,15 @@
+
+<mat-nav-list>
+    <a mat-list-item routerLink="/admin">
+        <mat-icon>insert_chart_outlined</mat-icon>
+        <span class="nav-link">Dasboard</span>
+    </a>
+    <a mat-list-item routerLink="/admin/citas">
+        <mat-icon>people</mat-icon>
+        <span class="nav-link">Citas</span>
+    </a>
+    <a mat-list-item (click) = onExit()>
+        <mat-icon>exit_to_app</mat-icon>
+        <span class="nav-link">Exit</span>
+    </a>
+</mat-nav-list>
